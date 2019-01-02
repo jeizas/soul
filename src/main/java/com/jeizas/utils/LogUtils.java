@@ -24,7 +24,8 @@ public class LogUtils {
             MediaType.APPLICATION_JSON,
             MediaType.APPLICATION_JSON_UTF8,
             MediaType.TEXT_PLAIN,
-            MediaType.TEXT_XML);
+            MediaType.TEXT_XML,
+            MediaType.TEXT_HTML);
 
     @SuppressWarnings("unchecked")
     public static <T extends DataBuffer> T loggingRequest(Logger log, T buffer) {

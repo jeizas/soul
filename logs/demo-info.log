@@ -1,0 +1,666 @@
+2019-01-02 at 23:10:04 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 50 logStarting - Starting ApplicationLauncher on jeizas@MacBook-Pro with PID 51885 (/Users/jeizas/workspace/soul/target/classes started by jeizas in /Users/jeizas/workspace/soul)
+2019-01-02 at 23:10:04 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-01-02 at 23:10:04 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-02 at 23:10:04 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-02 at 23:10:05 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:10:05 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-01-02 at 23:10:05 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:10:05 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-02 at 23:10:06 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+2019-01-02 at 23:10:06 CST [restartedMain] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer 77 start - Netty started on port(s): 8080
+2019-01-02 at 23:10:06 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 59 logStarted - Started ApplicationLauncher in 2.024 seconds (JVM running for 3.066)
+2019-01-02 at 23:10:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:10:08 CST [reactor-http-nio-2] INFO  com.jeizas.controller.TestController 19 test - 我的测试问题 info，param=123
+2019-01-02 at 23:10:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.058ms
+2019-01-02 at 23:10:56 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:10:56 CST [reactor-http-nio-2] INFO  com.jeizas.controller.TestController 19 test - 我的测试问题 info，param=123
+2019-01-02 at 23:10:56 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 50 logStarting - Starting ApplicationLauncher on jeizas@MacBook-Pro with PID 51914 (/Users/jeizas/workspace/soul/target/classes started by jeizas in /Users/jeizas/workspace/soul)
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:12:51 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-02 at 23:12:52 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+2019-01-02 at 23:12:52 CST [restartedMain] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer 77 start - Netty started on port(s): 8080
+2019-01-02 at 23:12:52 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 59 logStarted - Started ApplicationLauncher in 1.868 seconds (JVM running for 2.861)
+2019-01-02 at 23:13:50 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:13:50 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.052ms
+2019-01-02 at 23:14:01 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:01 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.005ms
+2019-01-02 at 23:14:02 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:02 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.005ms
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:14:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:36 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:36 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:37 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:37 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:14:37 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:37 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:14:38 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:14:38 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.002ms
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 50 logStarting - Starting ApplicationLauncher on jeizas@MacBook-Pro with PID 51927 (/Users/jeizas/workspace/soul/target/classes started by jeizas in /Users/jeizas/workspace/soul)
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 227 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:15:31 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-02 at 23:15:32 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+2019-01-02 at 23:15:32 CST [restartedMain] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer 77 start - Netty started on port(s): 8080
+2019-01-02 at 23:15:32 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 59 logStarted - Started ApplicationLauncher in 1.839 seconds (JVM running for 2.813)
+2019-01-02 at 23:15:47 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:47 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.052ms
+2019-01-02 at 23:15:54 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:54 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:15:55 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:55 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:15:56 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:56 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:15:57 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:57 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:15:58 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:58 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:15:59 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:15:59 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:00 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:00 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:00 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:00 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:01 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:01 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:02 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:02 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:16:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:03 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:16:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:04 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:05 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:05 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:06 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:06 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:07 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:07 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:07 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:07 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.013ms
+2019-01-02 at 23:16:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:16:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.002ms
+2019-01-02 at 23:16:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:09 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:15 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:15 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:15 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:15 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:16 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:16 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.002ms
+2019-01-02 at 23:16:16 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:16 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.003ms
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 50 logStarting - Starting ApplicationLauncher on jeizas@MacBook-Pro with PID 51927 (/Users/jeizas/workspace/soul/target/classes started by jeizas in /Users/jeizas/workspace/soul)
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:16:47 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-02 at 23:16:48 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+2019-01-02 at 23:16:48 CST [restartedMain] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer 77 start - Netty started on port(s): 8080
+2019-01-02 at 23:16:48 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 59 logStarted - Started ApplicationLauncher in 0.467 seconds (JVM running for 78.202)
+2019-01-02 at 23:16:48 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 56 onApplicationEvent - Condition evaluation unchanged
+2019-01-02 at 23:16:50 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:16:50 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.007ms
+2019-01-02 at 23:17:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:17:08 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.004ms
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 50 logStarting - Starting ApplicationLauncher on jeizas@MacBook-Pro with PID 51927 (/Users/jeizas/workspace/soul/target/classes started by jeizas in /Users/jeizas/workspace/soul)
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 675 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 at 23:17:09 CST [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-02 at 23:17:10 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 57 startServer - LiveReload server is running on port 35729
+2019-01-02 at 23:17:10 CST [restartedMain] INFO  org.springframework.boot.web.embedded.netty.NettyWebServer 77 start - Netty started on port(s): 8080
+2019-01-02 at 23:17:10 CST [restartedMain] INFO  com.jeizas.ApplicationLauncher 59 logStarted - Started ApplicationLauncher in 0.346 seconds (JVM running for 100.109)
+2019-01-02 at 23:17:10 CST [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 56 onApplicationEvent - Condition evaluation unchanged
+2019-01-02 at 23:17:10 CST [reactor-http-nio-2] INFO  com.jeizas.filter.decorator.PartnerServerHttpRequestDecorator 38 <init> - 
+HttpMethod : GET
+Uri        : /test
+Headers    : 
+            Upgrade-Insecure-Requests: [1]
+            Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
+            Accept-Language: [en-US,en;q=0.9,zh-CN;q=0.8,zh-HK;q=0.7,zh;q=0.6]
+            User-Agent: [Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36]
+            Connection: [keep-alive]
+            Accept-Encoding: [gzip, deflate, br]
+            Host: [localhost:8080]
+            Cache-Control: [max-age=0]
+2019-01-02 at 23:17:10 CST [reactor-http-nio-2] INFO  com.jeizas.filter.RequestFilter 28 success - 接口耗时：0.006ms
